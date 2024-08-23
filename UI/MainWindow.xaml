@@ -1,0 +1,68 @@
+﻿<Window x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="MovilTravel" Height="181.334" Width="574.999" FontSize="15" ResizeMode="NoResize" Icon="Images/Icon.ico">
+
+    <Grid ShowGridLines="True">
+
+        <Label x:Name="label1" Content="Seleccione sector en donde se encuentra usted." Margin="10,0,-10,0" Height="32.334" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Seleccione carpeta para crear planilla diaria." Margin="10,32.334,-10,0" Height="29.667" VerticalAlignment="Top"/>
+
+        <ComboBox x:Name="cmbLocation" Height="24px" HorizontalAlignment="Left" Margin="16.333,75.667,0,0" VerticalAlignment="Top" Width="60px" SelectionChanged="cmbLocation_SelectionChanged">
+
+            <ComboBoxItem Content="MCC">
+                <ComboBoxItem.ToolTip>
+                    <StackPanel>
+                        <TextBlock>Mall Costanera Center</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem.ToolTip>
+            </ComboBoxItem>
+
+            <ComboBoxItem Content="PÑ">
+                <ComboBoxItem.ToolTip>
+                    <StackPanel>
+                        <TextBlock>Portal Ñuñoa</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem.ToolTip>
+            </ComboBoxItem>
+
+            <ComboBoxItem Content="ELL">
+                <ComboBoxItem.ToolTip>
+                    <StackPanel>
+                        <TextBlock>El LLano</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem.ToolTip>
+            </ComboBoxItem>
+        </ComboBox>
+
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Height="24px" Margin="76.333,75.667,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="391" Foreground="Black"/>
+
+        <Button x:Name="btnSearch" Background="#f0f0f0" HorizontalAlignment="Left" Margin="472.333,75.667,0,0" VerticalAlignment="Top" Width="75" Height="24px" Click="btnSearch_Click">
+            <Button.Effect>
+
+                <DropShadowEffect Color="Black" Direction="320" ShadowDepth="1" BlurRadius="1" Opacity="1.0"/>
+            </Button.Effect>
+
+            <TextBlock TextAlignment="Right" Text="Buscar"/>
+        </Button>
+
+
+        <Button x:Name="btnCreate" Content="Crear" Background="#f0f0f0" HorizontalAlignment="Left" Margin="142.334,0,0,10" Height="23" Width="75" Click="btnCreate_Click"  VerticalAlignment="Bottom">
+            <Button.Effect>
+                <DropShadowEffect Color="Black" Direction="320" ShadowDepth="1" BlurRadius="1" Opacity="1.0"/>
+            </Button.Effect>
+        </Button>
+
+        <Button x:Name="btnModify" Content="Modificar" Background="#f0f0f0" HorizontalAlignment="Right" Margin="0,0,193.332,10" Height="23" Width="75" Click="btnModify_Click" VerticalAlignment="Bottom">
+            <Button.Effect>
+                <DropShadowEffect Color="Black" Direction="320" ShadowDepth="1" BlurRadius="1" Opacity="1.0"/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+
+</Window>

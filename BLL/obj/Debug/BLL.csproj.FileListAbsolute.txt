@@ -1,0 +1,16 @@
+E:\MovilTravel\MovilTravel\BLL\bin\Debug\BLL.dll
+E:\MovilTravel\MovilTravel\BLL\bin\Debug\BLL.pdb
+E:\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.dll
+E:\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.pdb
+E:\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Programming\C#\MovilTravel\MovilTravel\BLL\bin\Debug\BLL.dll
+E:\Programming\C#\MovilTravel\MovilTravel\BLL\bin\Debug\BLL.pdb
+E:\Programming\C#\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.dll
+E:\Programming\C#\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.pdb
+E:\Programming\C#\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Projects\IT\MovilTravel\MovilTravel\BLL\bin\Debug\BLL.dll
+E:\Projects\IT\MovilTravel\MovilTravel\BLL\bin\Debug\BLL.pdb
+E:\Projects\IT\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.dll
+E:\Projects\IT\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.pdb
+E:\Projects\IT\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Projects\IT\MovilTravel\MovilTravel\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

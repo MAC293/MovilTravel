@@ -1,0 +1,4 @@
+E:\MovilTravel\MovilTravel\BLL\bin\Release\BLL.dll
+E:\MovilTravel\MovilTravel\BLL\bin\Release\BLL.pdb
+E:\MovilTravel\MovilTravel\BLL\obj\Release\BLL.dll
+E:\MovilTravel\MovilTravel\BLL\obj\Release\BLL.pdb
